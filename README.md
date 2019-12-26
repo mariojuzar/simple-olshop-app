@@ -50,6 +50,17 @@ sample response:
 }
 ```
 
+if order not found:
+
+```
+{
+    "server_time": "2019-12-26T16:17:48.543244+07:00",
+    "code": 400,
+    "message": "Not Found",
+    "data": null
+}
+```
+
 ## Run application
 
 ### Using go build
