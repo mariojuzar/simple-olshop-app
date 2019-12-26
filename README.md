@@ -67,6 +67,8 @@ if order not found:
 
 before build and run apps, ensure to migrate DDL.sql to your destination mysql
 
+ensuring all dependencies with `go mod download`
+
 build application with script `go build main.go`
 
 run application `./main`
